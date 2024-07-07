@@ -1,5 +1,12 @@
 {
 	// Other
+	"editor.suggest.insertMode": "insert",
+	"[cpp]": {
+		"editor.suggest.insertMode": "insert"
+	},
+	"[c]": {
+		"editor.suggest.insertMode": "insert"
+	},
 	"editor.fastScrollSensitivity": 10,
 	"workbench.colorCustomizations": {
 		"editorError.foreground":   "#00000000",
@@ -7,11 +14,11 @@
 		"editorInfo.foreground":    "#00000000",
 		"editorWhitespace.foreground": "#2a2119"
 	},
-	"editor.quickSuggestions": {
-		"other": "on",
-		"comments": "on",
-		"strings": "on"
-	},
+	// "editor.quickSuggestions": {
+	// 	"other": "on",
+	// 	"comments": "off",
+	// 	"strings": "off"
+	// },
 	"editor.wordBasedSuggestions": "allDocuments",
 	"window.zoomLevel": 2.7,
 	"editor.guides.indentation": false,
@@ -79,7 +86,7 @@
 	// "editor.fontWeight": "800",
 
 	// "editor.fontFamily": "BigBlueTerm437 Nerd Font Mono",
-	"editor.fontFamily": "'Anka/Coder'",
+	"editor.fontFamily": "Iosevka, 'Anka/Coder'",
 	// "editor.fontFamily": "monospace",
 	"editor.lineHeight": 16,
 	// "editor.fontSize": 16.4,

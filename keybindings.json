@@ -1,4 +1,14 @@
 [
+    // Following 2 are broken sometimes
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.navigateForward"
+    },
+
     // Does not work without
     //   "terminal.integrated.commandsToSkipShell": ["workbench.action.closePanel"],
     {
